@@ -1,0 +1,247 @@
+/* @media screen,print and (max-width: 1200px) { */
+.col-25,
+.col-75,
+input[type="submit"] {
+  width: 20%;
+  margin-top: 0;
+}
+
+/* Add a black background color to the top navigation */
+.navbar {
+  background-color: rgb(238, 228, 228);
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #6b6262;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: rgb(255, 255, 255);
+  color: #da6619;
+}
+
+/* Add an active class to highlight the current page */
+.navbar a.active {
+  background-color: white;
+  color: white;
+}
+.dlink {
+  background-color: #000000;
+  color: #e7f5f0;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.navbar.icon {
+  display: none;
+}
+.mainbody {
+  margin-top: 80px;
+}
+.containerhome {
+  width: 100vw;
+  overflow: hidden;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin-top: 30px;
+  text-align: justify;
+}
+.links {
+  width: 50vw;
+  overflow-x: hidden;
+  color: rgb(0, 0, 0);
+  /* background-color: grey(156, 89, 89); */
+  text-align: center;
+}
+.home1 {
+  width: 100%;
+  display: flex;
+  /* background-color: rgb(241, 200, 200); */
+
+  background-image: linear-gradient(
+    180deg,
+    rgb(241, 177, 177),
+    rgb(236, 164, 233)
+  );
+}
+
+.top-para {
+  width: 50%;
+  margin: 0% 5% 0% 10%;
+}
+.img1 {
+  border-radius: 10px;
+  width: 30%;
+  margin-right: 5%;
+}
+
+.img2 {
+  margin-top: auto;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0px auto;
+}
+#toTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  width: fit-content;
+  right: 3px;
+  margin-right: 3px;
+  z-index: 10;
+}
+.button2 {
+  padding: 10px;
+  background-color: #df87b0;
+  border-radius: 25px;
+  border-width: 5px solid black;
+}
+.gallery {
+  margin-top: 60px;
+  flex-direction: initial;
+}
+.column {
+  float: left;
+  width: 50px;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "none";
+  clear: both;
+  flex-direction: row;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(248, 193, 193);
+  justify-content: space-around;
+}
+
+.flex-container > div {
+  background-color: #c03737;
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(231, 181, 88);
+}
+
+.visually-hidden {
+  color: black;
+}
+input {
+  float: right;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+  border: rgb(0, 0, 0);
+  text-align: justify;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(17, 9, 9);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 6px 6px 6px 6px;
+  display: inline-flex;
+}
+
+input[type="submit"] {
+  background-color: #48b15e;
+  color: rgb(248, 248, 248);
+  padding: 5px 20px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: #17911d;
+  border-radius: 1px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 25px;
+  width: 50%;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 70%;
+  margin-top: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+.footer {
+  margin-top: 80px;
+}
+/* #carouselExampleControls {
+  margin-right: 20px;
+  margin-left: 20px;
+} */
+
+.image-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 30%;
+  }
+  50% {
+    margin-left: 70%;
+  }
+  100% {
+    margin-left: 30%;
+  }
+}
+
+/* } */
